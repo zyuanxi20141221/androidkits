@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/take_permission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="权限申请" />
+
+            <Button
+                android:id="@+id/take_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="播放视频" />
+
+            <Button
+                android:id="@+id/take_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="网络请求" />
+
+            <Button
+                android:id="@+id/take_customview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义视图" />
+
+            <Button
+                android:id="@+id/take_okhttp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OKHTTP" />
+
+            <Button
+                android:id="@+id/take_opensdk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="开源组件" />
+
+            <Button
+                android:id="@+id/take_mvp_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android MVP Pattern" />
+
+            <Button
+                android:id="@+id/take_asynctask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android AsyncTask" />
+
+            <Button
+                android:id="@+id/take_leakcanary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LeakCanary" />
+
+            <Button
+                android:id="@+id/take_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ListView" />
+
+            <Button
+                android:id="@+id/take_recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RecycleView" />
+
+            <Button
+                android:id="@+id/take_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragment" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
