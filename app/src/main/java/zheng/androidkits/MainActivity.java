@@ -10,7 +10,10 @@ import fragment.FragmentActivity;
 import leakcanary.LeakcanaryActivity;
 import listview.ListViewActivity;
 import mvp.view.LoginActivity;
+import mvvm.MainBindingActivity;
+import mvvm.MainBindingActivity2;
 import recycleview.RecycleViewActivity;
+import rxjava.RxJavaActivity;
 import video.SimplePlayActivity;
 import video.VideoInfo;
 import view.bottomdialog.CustomeViewActivity;
@@ -23,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ButterKnife.bind(this); //通过注解的方式来对Android View进行绑定.
+        ButterKnife.bind(this);
     }
 
     @OnClick(R.id.take_permission)
@@ -97,6 +100,24 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.take_fragment)
     public void onFragmentClick() {
         intent = new Intent(this, FragmentActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.take_mvvm)
+    public void onMvvmClick() {
+        intent = new Intent(this, MainBindingActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.take_mvvm2)
+    public void onMvvmClick2() {
+        intent = new Intent(this, MainBindingActivity2.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.take_rxjava)
+    public void onRxjavaClick() {
+        intent = new Intent(this, RxJavaActivity.class);
         startActivity(intent);
     }
 }

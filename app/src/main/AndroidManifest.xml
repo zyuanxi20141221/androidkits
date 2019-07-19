@@ -51,6 +51,9 @@
         <activity android:name="listview.ListViewActivity" />
         <activity android:name="recycleview.RecycleViewActivity" />
         <activity android:name="fragment.FragmentActivity" />
+        <activity android:name="mvvm.MainBindingActivity" />
+        <activity android:name="mvvm.MainBindingActivity2" />
+        <activity android:name="rxjava.RxJavaActivity" />
     </application>
 
 </manifest>

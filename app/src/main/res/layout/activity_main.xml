@@ -88,6 +88,24 @@
                 android:layout_height="wrap_content"
                 android:text="Fragment" />
 
+            <Button
+                android:id="@+id/take_mvvm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MVVM" />
+
+            <Button
+                android:id="@+id/take_mvvm2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MVVM2" />
+
+            <Button
+                android:id="@+id/take_rxjava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rxjava" />
+
         </LinearLayout>
 
     </ScrollView>
